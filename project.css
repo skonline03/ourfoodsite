@@ -1,0 +1,313 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+  
+    width: 100%;
+    height: 60px;
+   
+}
+.logo{
+    line-height: 60px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+ul{
+    float: right;
+    margin-right: 80px;
+}
+ul li{
+    line-height: 60px;
+    list-style: none;
+    display: inline-block;
+} 
+nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(68, 203, 68);
+    background-color: rgb(236, 213, 213);
+    border: 1px solid black;
+    transition: .6s;
+}
+.home{
+    color: rgb(68, 203, 68);
+}
+
+/* end navbar */
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.imgs{
+    height:400px;
+    width: 400px;
+}
+.testy{
+    color:rgb(68, 203, 68);
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.food-title{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.btn{
+    padding:5px 10px;
+    background-color: rgb(68, 203, 68);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: .6s;
+}
+.btn:hover{
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    transition: .6s;
+}
+/* end banner */
+
+/* start about */
+.about-us{
+    color:rgb(68, 203, 68);
+    text-align: start;
+    padding-bottom: 20px;
+}
+.abimg{
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+
+}
+.about{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+.cook{
+    padding-bottom: 15px;
+    line-height: 40px;
+}
+.abouts{
+    padding-bottom: 20px;
+}
+.btnss{
+    border: none;
+    background-color:rgb(68, 203, 68);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.btnss:hover{
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    transition: .6s;
+}
+/* start offer */
+
+.titleoffer{
+    color: rgb(68, 203, 68);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.titlesoffer{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.service-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.services{
+    padding:20px;
+    max-width: 250px;
+
+}
+.icon{
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(68, 203, 68);
+}
+.service-title{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.service-para{
+    text-align: center;
+}
+
+
+/* start menu */
+.menu{
+    padding-top: 30px;
+}
+.menuotw{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.plate1{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+.menu1{
+  height: 300px;
+  width: 250px;
+  border:1px solid rgb(227, 199, 161);
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+  position: relative;
+ 
+}
+.men{
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 15px;
+  
+}
+.dish{
+    opacity: 0.35;
+    margin-top: 10px;
+}
+.salad{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.store{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    padding:10px 20px;
+    background-color: rgb(68, 203, 68);
+    border-top-left-radius:10px;
+    color: white;
+}
+
+/* end menubar */
+
+/* start download*/
+.download{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.apimg{
+    height: 500px;
+    width: 400px;
+}
+.downimgs{
+    height:100px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.app{
+    color: rgb(68, 203, 68);
+    padding-bottom: 10px;
+}
+.apps{
+    padding-bottom: 10px;
+}
+.waytodownload{
+    padding-bottom: 10px;
+}
+.aboutt{
+    display: flex;
+    justify-content: space-between;
+}
+.abouts{
+    padding:20px 40px;
+    padding-top: 50px;
+}
+.op{
+    margin-bottom: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.paras{
+    margin:15px 0;
+}
+.copyr{
+    text-align: center;
+    margin: 20px 0;
+}
+
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    line-height: 60px;
+    display: none;
+}
+
+/* start responsive */
+
+@media (max-width:750px){
+    
+ .checkbtn{
+     display: block;
+ }
+ ul{
+     position: absolute;
+     left: -100%;
+     top: 50px;
+     height: 100vh;
+     width: 100%;
+     background-color: darkblue;
+     transition: .5s;
+ }
+ ul li{
+     display: block;
+     text-align: center;
+ }
+ ul li a{
+     color: white;
+ }
+ #check:checked~ul{
+    left: 0;
+}
+}
